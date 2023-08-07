@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family:"SamsungOne-400";
+    src: url("/fonts/SamsungOne-400.ttf");
+}
+
+@font-face {
+    font-family:"SamsungOne-700" ;
+    src: url("/fonts/SamsungOne-700.ttf");
+}
+
+@font-face {
+    font-family:"SamsungOne" ;
+    src: url("/fonts/SamsungOne.ttf");
+}
+.container-1{
+    width: 300px;
+    height: 300px;
+    background-color:#A3A3A3;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+   
+}
+
+.container-2{
+    width: 275px;
+    height: 275px;
+    background-color:#272727;
+    position: relative;
+    top: 0px;
+    left: 12px;
+    right: 12px;
+    bottom: 0px;
+    border-radius:5px ;
+    font-family: "SamsungOne-400",sans-serif;
+}
+
+#SAMSUNG{
+    margin: 0px;
+    padding: 10px;
+    color:#A3A3A3;
+    font-family:"SamsungOne-700" ,sans-serif ;
+    width: 100%;
+    font-weight: bold;
+    
+}
+
+.CHINA{
+    display: block;
+    color:#A3A3A3;
+    margin: 0;
+    padding: 0;
+    font-size: xx-small;
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+.line{
+  border-top:#A3A3A3;
+  width: 270px;
+  border: solid 3px #A3A3A3;
+  float: right;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+.line-2{
+    border-top:#2B2B2B;
+    width: 270px;
+    border:#2B2B2B solid 1px;
+    float: right;
+  }
+
+.voltaje{
+    display: block;
+    color:#A3A3A3;
+    margin: 0;
+    padding-top: 5px;
+    font-size: x-small;
+    padding-left: 20px;
+
+  }
+*{
+    box-sizing: border-box;
+}
+
+img{
+    width: 200px;
+    position: relative;
+    top:30px;
+    left: 20px;
+   
+}
+
+.mas-1{
+    margin: 0;
+    padding: 0;
+    height: 13px;
+}
+
+span{
+    margin: 0;
+    padding: 0;
+    margin-left: 25px;
+    font-size:x-small;
+    position: relative;
+    bottom: 5px;
+
+}
